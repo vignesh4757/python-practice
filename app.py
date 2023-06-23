@@ -10,7 +10,7 @@ def dessert_order():
 
 # Main app
 def main():
-    st.title("Dessert Ordering App")
+    st.title("Dessert Ordering App Interface created by Vignesh for practice purpose")
     dessert_order()
 
 if __name__ == "__main__":
