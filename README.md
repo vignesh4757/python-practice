@@ -1,9 +1,9 @@
 # python-practice
 # Dessert Ordering App
 
-This is a simple app built with Streamlit that allows users to place dessert orders by selecting a flavour and dessert type. It displays the order confirmation message with the chosen flavour and dessert type.
+This is a simple app interface built with Streamlit that allows users to place dessert orders by selecting a flavour and dessert type. It only displays the order confirmation message with the chosen flavour and dessert type.
 
-## Getting Started
+Just for practice purpose
 
 ### Prerequisites
 
