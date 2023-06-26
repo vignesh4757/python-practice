@@ -51,9 +51,9 @@ def quiz():
     st.write("You got", str(percentage) + "%")
 
 if __name__ == '__main__':
-    playing = st.radio("Do you want to play?", ["Yes", "No"])
+    playing = st.radio("Do you want to play?", ["Yes 👍🏻 ", "No 👎🏻 "])
 
     if playing == "Yes":
         quiz()
     else:
-        st.write("Okay, maybe next time!")
+        st.write("Okay, maybe next time! 🥲 ")
