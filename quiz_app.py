@@ -2,7 +2,7 @@ import streamlit as st
 
 def quiz():
     st.title("Welcome to the Quiz by Vignesh 🤖")
-    st.write("Let's play!")
+    st.write("Let's play 😉 ")
 
     score = 0
 
