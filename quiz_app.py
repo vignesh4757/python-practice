@@ -7,7 +7,7 @@ def quiz():
     score = 0
 
     # Question 1
-    answer = st.text_input("Question 1: What does CPU stand for in a computer?")
+    answer = st.text_input("Question 1: What does CPU stand for in a computer? 🖥️ ")
     if answer.lower() == "central processing unit":
         st.write("Correct!")
         score += 1
@@ -15,7 +15,7 @@ def quiz():
         st.write("Incorrect!")
 
     # Question 2
-    answer = st.text_input("Question 2: What is the capital of France?")
+    answer = st.text_input("Question 2: What is the capital of France? 🇫🇷 ")
     if answer.lower() == "paris":
         st.write("Correct!")
         score += 1
@@ -23,7 +23,7 @@ def quiz():
         st.write("Incorrect!")
 
     # Question 3
-    answer = st.text_input("Question 3: Who painted the Mona Lisa?")
+    answer = st.text_input("Question 3: Who painted the Mona Lisa? 🎨 ")
     if answer.lower() == "leonardo da vinci":
         st.write("Correct!")
         score += 1
@@ -31,7 +31,7 @@ def quiz():
         st.write("Incorrect!")
 
     # Question 4
-    answer = st.text_input("Question 4: Which planet is known as the Red Planet?")
+    answer = st.text_input("Question 4: Which planet is known as the Red Planet? 🪐 ")
     if answer.lower() == "mars":
         st.write("Correct!")
         score += 1
@@ -39,7 +39,7 @@ def quiz():
         st.write("Incorrect!")
 
     # Question 5
-    answer = st.text_input("Question 5: What is the chemical symbol for gold?")
+    answer = st.text_input("Question 5: What is the chemical symbol for gold? 🌟 ")
     if answer.lower() == "au":
         st.write("Correct!")
         score += 1
