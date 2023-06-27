@@ -11,7 +11,7 @@ def quiz():
     if answer.lower() == "central processing unit":
         st.write("Correct!")
         score += 1
-    elif answer == (" "):
+    elif answer.strip() == "":
         st.write (" ")
     else:
         st.write("Incorrect!")
