@@ -3,6 +3,7 @@ import streamlit as st
 def quiz():
     st.title("Welcome to the Quiz by Vignesh 🤖")
     st.write("Let's play 😉 ")
+    st.write("please press enter after answering the question 😇 ")
 
     score = 0
 
