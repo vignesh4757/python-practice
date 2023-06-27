@@ -21,6 +21,8 @@ def quiz():
     if answer.lower() == "paris":
         st.write("Correct!")
         score += 1
+    elif answer.strip() == "":
+        st.write (" ")
     else:
         st.write("Incorrect!")
 
@@ -29,6 +31,8 @@ def quiz():
     if answer.lower() == "leonardo da vinci":
         st.write("Correct!")
         score += 1
+    elif answer.strip() == "":
+        st.write (" ")
     else:
         st.write("Incorrect!")
 
@@ -37,6 +41,8 @@ def quiz():
     if answer.lower() == "mars":
         st.write("Correct!")
         score += 1
+    elif answer.strip() == "":
+        st.write (" ")
     else:
         st.write("Incorrect!")
 
@@ -45,6 +51,8 @@ def quiz():
     if answer.lower() == "au":
         st.write("Correct!")
         score += 1
+    elif answer.strip() == "":
+        st.write (" ")
     else:
         st.write("Incorrect!")
 
